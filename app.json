@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "dev-coin",
-    "slug": "dev-coin",
+    "name": "DevCoin",
+    "slug": "DevCoin",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -9,7 +9,7 @@
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +20,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#000000"
+      },
+      "package": "com.alfabytecodes.devcoin",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "50856efe-cc93-463f-94b0-47f925a83e6e"
+      }
     }
   }
 }
